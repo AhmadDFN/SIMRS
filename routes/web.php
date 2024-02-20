@@ -19,9 +19,9 @@ Route::get('/welcome', function () {
 
 Route::get('/', function () {
     return view('layouts.backend.template');
-})->name('register');
+})->name('login');
 
 Route::get('/template', function () {
     return view('layouts.backend.template');
-})->name('login');
+})->name('register');
 
